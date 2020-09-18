@@ -1,0 +1,26 @@
+img {
+    height: 500px;
+    width: 500px;
+    border: 1px solid tomato;
+}
+h1,p,h3,h6 {
+    color: white;
+}
+.carousel-indicators li {
+    width: 0;
+    height: 0
+}
+.carousel-control-prev,
+.carousel-control-next {
+    height: 50px;
+    width: 50px;;
+    top: 110%;
+    background-color: gray;
+    border-radius: 50px;
+}
+.carousel-control-prev {
+    left: 45%;
+}
+.carousel-control-next {
+    right: 45%;
+}
